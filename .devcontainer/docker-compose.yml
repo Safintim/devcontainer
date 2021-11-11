@@ -1,0 +1,11 @@
+version: "3.7"
+
+x-common-volumes: &common-volumes
+  - .:/project:cached
+
+services:
+  api:
+    volumes: *common-volumes
+
+  frontend:
+    volumes: *common-volumes
