@@ -21,3 +21,8 @@ _./devcontainer/devcontainer.json_
 
 - Pylance работает очень медленно (потребовалось даже указать, где искать библиотеки python.autoComplete.extraPaths)
 - Jedi, Microsoft медленно.
+
+## Запуск
+
+- [Настроить](https://go.microsoft.com/fwlink/?linkid=830387) launch.json в папке .vscode
+- Прокинуть порты в forwardPorts
